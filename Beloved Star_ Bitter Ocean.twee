@@ -13,6 +13,7 @@ Beloved Star, Bitter Ocean
 
 
 :: Answer it {"position":"500,100","size":"100,100"}
+<img src="image URL"\>
 You walk outside to the darkened street, glancing at the phone screen you cant quite seem to make out the number or name of whoever is calling you and you can't tell why... maybe a bug?
 Nevertheless, you press accept and bring the phone up to your ear, giving a "hello?" as you do.
 
@@ -40,6 +41,7 @@ You find yourself around the corner soon, giving a moments pause for any more no
 
 
 :: Begin your travel {"position":"900,100","size":"100,100"}
+<img src="image URL"\>
 You take a few steps down the street before your phone rings again.
 
 This time you're frustrated and practically swipe the phone out of your pocket, but you're thankfully surprised to not see some odd or cryptic name, it instead reads "Mam <3".
@@ -50,6 +52,7 @@ You smile, the anxiety falling a little from this whole situation.
 
 
 :: Beginning {"position":"100,100","size":"100,100"}
+<img src="https://github.com/CosmologicalOrion/Beloved-Star-Bitter-Ocean/blob/main/Images/Coffee%20shop.png?raw=true"\>
 Far from home you sip a cup of coffee. The sun is setting and you feel... happy. 
 
 Having taken a few days from home to spend some time to yourself, you find yourself in a small cafe as you enjoy your drink.
@@ -503,6 +506,7 @@ You look around some more, you woke up against a near plain wall, but the others
 
 
 :: Ominous silence {"position":"700,100","size":"100,100"}
+<img src="image URL"\>
 There hasnt been a reply yet, maybe it was a butt dial or a scam call that hasnt gone through properly? Then it happens, a voice comes through, a whisper, and it says "The beloved star falls over the bitter ocean..."
 
 What? You cant help but question the situation, this whole thing seems odd and you hang up, you have no time for weird scam calls, not today. It's time to head home...
@@ -535,6 +539,7 @@ You pick up the frame, and spin it around to face you, using the lighter to ligh
 
 
 :: Pick up the phone {"position":"1100,100","size":"100,100"}
+<img src="image URL"\>
 You bring the phone up to your ear, and you smile as you say "Hey mam!" into the microphone- but you are immediately hit with a wave of dread and pain as this deafening otherworldy screech is pounded into your ears.
 It is LOUD, far to loud to endure, and you drop your phone, but find the noise to persist; you clutch your head, your ears, anything to ease this feeling, but you can't, and it overwhelms you.
 
@@ -596,6 +601,7 @@ You reach your first crossroads. You have the option to head left or right.
 
 
 :: Sip your coffee {"position":"300,100","size":"100,100"}
+<img src="image URL"\>
 Suddenly, out of nowhere your phone rings- you're not expecting any calls, but that's not an issue; it would be best to take it outside and answer it.
 
 [[Answer it]]
