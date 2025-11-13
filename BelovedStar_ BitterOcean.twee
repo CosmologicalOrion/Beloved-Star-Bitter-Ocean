@@ -1,0 +1,742 @@
+:: StoryTitle
+Beloved Star, Bitter Ocean
+
+
+:: StoryData
+{
+  "ifid": "69C31BAB-33D4-4532-8842-15CD941414EF",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Beginning",
+  "zoom": 0.6
+}
+
+
+:: Answer it {"position":"500,100","size":"100,100"}
+You walk outside to the darkened street, glancing at the phone screen you cant quite seem to make out the number or name of whoever is calling you and you can't tell why... maybe a bug?
+Nevertheless, you press accept and bring the phone up to your ear, giving a "hello?" as you do.
+
+[[...->Ominous silence]]
+
+
+:: Approach the door {"position":"3000,1100","size":"100,100"}
+You continue to tell yourself it is nothing to worry about, nothing is here, it is just the old building shifting, or an animal, a rodent perhaps.
+
+You take steps forward, readying yourself for anything ahead.
+Your guy begins to tell you to get away from the darkness.
+(if: $HasKnife)[The knife shakes within your grasp ever so slightly.]
+
+[[Continue to approach]]
+
+[[Back away down the corridor]]
+
+
+:: Back away down the corridor {"position":"2800,1100","size":"100,100"}
+You decide your better judgement is named as such for a good reason and begin to move backwards away from the door and around the bend, hoping that whatever caused the door to open isnt going to be a threat to your health.
+
+You find yourself around the corner soon, giving a moments pause for any more noise; hearing nothing however, you turn around to view the cart ahead of you, feeling more confident that the door opening was merely the building shifting. Now that you think about it, its probably a good reason to get moving quicker.
+
+[[Inspect the cart]]
+
+
+:: Begin your travel {"position":"900,100","size":"100,100"}
+You take a few steps down the street before your phone rings again.
+
+This time you're frustrated and practically swipe the phone out of your pocket, but you're thankfully surprised to not see some odd or cryptic name, it instead reads "Mam <3".
+
+You smile, the anxiety falling a little from this whole situation.
+
+[[Pick up the phone]]
+
+
+:: Beginning {"position":"100,100","size":"100,100"}
+Far from home you sip a cup of coffee. The sun is setting and you feel... happy. 
+
+Having taken a few days from home to spend some time to yourself, you find yourself in a small cafe as you enjoy your drink.
+
+[[Sip your coffee]]
+
+
+:: Collect yourself {"position":"3000,1300","size":"100,100"}
+You uncoil your hand from around the bloodied knife, it now coated in a dark red stain, unnaturally dark, you try to compose yourself, to calm yourself down, but this whole situation is too bizarre, too sudden!
+
+You stumble yourself along the corridor in a hurry, reaching the corner and turning it, pressing yourself against the wall and taking many deep breaths.
+
+"What was that thing?", "A person?", "Was that even real?", "Am I going insane?"
+
+You can't help but ask yourself this plethora of questions.
+
+You need to get out of here as soon as possible.
+Time to get to that cart, and fast.
+
+[[Inspect the cart]]
+
+
+:: Continue to approach {"position":"3200,1100","size":"100,100"}
+You step forward once more, willing confidence into yourself.
+
+Then you hear a creak... ABOVE YOU!!
+
+You look up! Seeing... Something you cant even describe?! A creature? A man? It is distorted twisted, shrouded by the dark, so much so you didnt see it before.
+
+You attempt to back away, you fell for its trap, but it grabs it's unnaturally clawed hands into you to pull you up!
+
+(if:$HasKnife)[[Fight Back!->Stab the creature]]
+
+(if:not$HasKnife)[[Fight Back!->Die to the creature]]
+
+
+
+
+:: Die to the creature {"position":"3200,900","size":"100,100"}
+You punch at the creature!!! Hitting its arms with all your might, but it's no use, it begins to lift you off the ground, its long rotten nails digging into your sides...
+
+You kick! Strike!! Scream!!!
+It is no use at all, you panic, your blood pools below you as it digs its claws deeper.
+
+It screeches at you as it in turn uses its might to cleave you in twain, causing you to gasp your last breath before you feel as it pulls you into the dark, where you shall remain forevermore... 
+
+The beloved star sets over the bitter ocean.
+
+( You have died ¯\_(ツ)_/¯ )
+
+[[Checkpoint!->Approach the door]]
+
+
+:: Don't look away. {"position":"2600,1900","size":"100,100"}
+You keep your eyes trained on the corner that turns left from behind. The steps may have stopped, but you still don't trust the silence.
+
+You wait. The silence feels surprisingly deafening. Then amongst the silence, you hear another creak... above you.
+
+You jolt your head up, and there! In the darkness above you! A creature? A man? It is distorted twisted, shrouded by the dark, so much so you didnt see it before.
+
+You attempt to back away, you fell for its trap, but it grabs it's unnaturally clawed hands into you to pull you up!
+
+[[Fight back!]]
+
+
+:: Enter the maze {"position":"2800,1900","size":"100,100"}
+You walk and walk and walk, turning corner after corner after corner. You feel panic setting in and tearing you apart.
+
+Then finally! Thankfully! The T junction!
+You pick up your pace, finally turning left, expecting the small hall leading to the staff door you entered through, but instead you are faced with a long and dark corridor. It carries on into the darkness, even more corridors branching off to the sides.
+
+You wonder briefly if it is wise to traverse this new area, perhaps it is smarter to turn back. This thought is very quickly cut short as you hear the noise of what sounds like metal sheering, and what sounds like a screech camoflauged within it.
+
+(if:$EncounteredEarly)[You recognise it, that thing is back! It mustve just broken through one of the many doors back down the corridors. Your heart feels like it is about to jump out of your chest, you got lucky in the first encounter with it, it underestimated you, it may not end the same way this time.]
+(if:not$EncounteredEarly)[It is an incredibly unsettling noise, and it definitely doesn't sound like a rodent or animal youve ever heard of. 
+You hold incredibly still, then you hear it; step, step, step. Whatever it is is coming. (if:$HasKnife)[You flick out the pocket knife and grip it firmly in your hand.]You brace yourself, but then the steps stop, has it stopped it's approach?]
+
+(if:$EncounteredEarly)[[Run down the corridors.]]
+(if:not$EncounteredEarly)[[Don't look away.]]
+
+
+:: Fail to turn back. {"position":"2800,2400","size":"100,100"}
+You turn on your heel and head back to the crossroads. If you're gonna make it out of here, you need to be fast!
+
+You reach it! You try to head down the opposite corridor, but a little too late you see the creature beside you, it had caught up. You try to evade it, but it charges you, knocking you to your feet, clambering over you and digging its claws into you.
+
+The wounds burn, you push and push to get it off, but it tears you apart, your fighting becomes weaker and weaker until you can't fight back anymore, giving in to your wounds.
+
+The beloved star sets over the bitter ocean.
+
+( You died! ¯\_(ツ)_/¯ )
+
+[[Checkpoint!->Run down the corridors.]]
+
+
+:: Fight back! {"position":"2600,2100","size":"100,100"}
+(if:not$HasKnife)[You punch at the creature!!! Hitting its arms with all your might, but it's no use, it begins to lift you off the ground, its long rotten nails digging into your sides...
+
+You kick! Strike!! Scream!!!
+It is no use at all, you panic, your blood pools below you as it digs its claws deeper.
+You scream back at the creature, grabbing the keys from your pocket as a last desperate attempt to free yourself, gripping the longest key you can find and stabbing at the creature. It is enough to make it loosen its grip! You wiggle and manage to free yourself from its claws, kicking it back and away as you do so. Whatever this thing is, it is humanoid. but its features are twisted, its neck elongated, its bones broken and twisted, its skin unnaturally dark. You're just barely free, but you feel your blood pool at your sides, you're injured. (set:$HasInjury to true)]
+
+(if:$HasKnife)[You punch at the creature!!! Hitting its arms with all your might, but it's no use, it begins to lift you off the ground, its long rotten nails digging into your sides...
+
+You life your arm up, the blade of the knife pointed towards the arms around you, and you bring it down right into the rotten arms of whatever this thing is.
+
+It screeches in response, letting you go before its claws can break through your skin. You go in for more strikes! Trying to hit anywhere you can. In response the creature shulks away, where you see it face to face; it is humanoid. but its features are twisted, its neck elongated, its bones broken and twisted, its skin unnaturally dark. It looks ready to leap at you again.]
+
+[[Run down the corridors.]] 
+
+
+:: Gate with key {"position":"2400,900","size":"100,100"}
+You finally approach the gate, you feel at your limit, hopefully the worst is over and will remain that way.
+
+You approach the gate, your hands shaking as you bring up the keys, placing them one by one into the keyhole, hoping to god that you find the right key and that its even on this keychain in the first place.
+
+Then finally! Yes! One goes in and smoothly locks into place.
+
+[[Turn the key left]]
+
+[[Turn the key right]]
+
+
+:: Get through the door {"position":"2400,3100","size":"100,100"}
+You run ahead as fast as you can and burst through the staff door, immediately you are lit up by the bright, yellowed, lights of the familiar hub-like area with the large gate and the bathrooms.
+
+You turn towards the open staff door, seeing the creature almost momentarily stunned by the light too.
+(if:not$HasInjury)[You slam the door shut, key it hand, knife in the other. The creature's footsteps thud louder and louder as you jam the keys into the door as quick as you can. You feel its weight hit against the door as you manage to turn the key, causing you to fall back, knife at the ready. To your relief, no matter how much the creature throws itself against the door, it cannot break through.]
+(if:$HasInjury)[With the creature right on your tale, you turn, whipping the keys into your hand, ready to close and lock the staff door as quick as you can, but there isnt enough time! The creature shakes off the light, seemingly steaming like its burning in its touch as it reaches its claws out to you. You slam against the staff door to shut it, but the creature reaches its limb through the door to prevent it.
+You push and push!! The creature rears its arm up and brings it down into your shoulder as you let out a screech, you see its skin splitting apart in the light however and you keep holding the door until finally it retracts its claws into the dark, allowing you to shut the door and lock it, hearing the creature whine and shriek as it retreats into the dark of the other side.
+
+You take a moment to collect yourself, before letting yourself collapse onto the floor for a moment, out of breath and energy, you take this moment to rest.
+
+(if:$HasInjury)[Your own blood covers you, you have multiple wounds, they're not deep, but not superficial either. You hold over them, keeping some pressure, to stop any mor bleeding; you barely came out of it all alive.
+
+[[Take a moment]]
+
+
+:: Head Left {"position":"2600,2300","size":"100,100"}
+You turn left, keeping a fast pace to escape this creature before it can do god knows what to you.
+
+This corridor is short and branches off soon to the right which you turn down. Again soon after, it turns left and you continue further; it is entirely unnatural, like some kind of maze.
+
+Following this corridor for a short while, you encounter another crossroads. (if:$HasInjury)[You do not have long to decide a direction, your thoughts were correct, it is tracking you by your blood trail.]
+
+[[Head Left->Head left again]]
+[[Head Right->Head right instead]]
+
+
+:: Head Right {"position":"3000,2300","size":"100,100"}
+You turn right, keeping a fast pace to escape this creature before it can do god knows what to you.
+
+This corridor is long, too long, you feel like it could go in one direction forever, but eventually it turns left and left again, then right and you continue further; it is entirely unnatural, like some kind of maze.
+
+Following this corridor for a short while, you encounter another crossroads. (if:$HasInjury)[You do not have long to decide a direction, your thoughts were correct, it is tracking you by your blood trail.]
+
+[[Head Right->Head right again]]
+
+[[Head Left->Head left instead]]
+
+
+:: Head back {"position":"2800,1500","size":"100,100"}
+You turn, ready to head back the way you came, rising properly to your feet, ready to turn the corner.
+
+(if:$EncounteredEarly)[You lean out, peering out into the dark, looking out for the creature; you feel sore, whatever that thing was wouldve torn you in two if you hadn't fought back. It appears to be clear, the door ahead remains firmly shut. You glance over the newly found set of keys, there seems to be multiple sets on the keychain; some are broken, others look like they might break on use.]
+(if:not$EncounteredEarly)[You briefly peer around the corner before turning it and carrying yourself ahead. The door that once opened now has returned to being closed. You glance over the newly found set of keys, there seems to be multiple sets on the keychain; some are broken, others look like they might break on use.]
+
+You pocket the keys, beginning your walk back around this dingy basement.
+(if:$HasKnife)[The weight of both the keys and the knife weigh heavily in your pocket, but it feels good to feel secure like this.]
+
+[[Keep walking.->Head back around the corridor]]
+
+
+:: Head back and turn left. {"position":"3000,2700","size":"100,100"}
+You turn on your heel and head back to the crossroads. If you're gonna make it out of here, you need to be fast!
+
+You reach it! You cross over to the leftward corridor, and out of the corner of your eye you spy it, the creature is only moments behind, rearing around a corner you previously turned down. You can't slow down now, theres no heading back, it is on your tail.
+
+You continue down this corridor and it spans ahead for a considerable distance. Eventually, almost to your dismay the corridor comes to an end, almost in response to your distress, you hear the creature shriek from down the corridor behind you. You quickly inspect the walls around you, to your right is a door. You try the handle, but it's locked, however you have the keys!
+
+Reaching into your pocket you pull the keys and try keys one, by one, by one.
+
+You hear it now, the creature is no more than 10 metres behind you.
+
+[[Unlock the door if it is the last thing you do]]
+
+
+:: Head back and turn right {"position":"2600,2700","size":"100,100"}
+You turn on your heel and head back to the crossroads. If you're gonna make it out of here, you need to be fast!
+
+You reach it! You cross over to the rightward corridor, and out of the corner of your eye you spy it, the creature is only moments behind, rearing around a corner you previously turned down. You can't slow down now, theres no heading back, it is on your tail.
+
+You continue down this corridor and it spans ahead for a considerable distance. Eventually, almost to your dismay the corridor comes to an end, almost in response to your distress, you hear the creature shriek from down the corridor behind you. You quickly inspect the walls around you, to your right is a door. You try the handle, but it's locked, however you have the keys!
+
+Reaching into your pocket you pull the keys and try keys one, by one, by one.
+
+You hear it now, the creature is no more than 10 metres behind you.
+
+[[Unlock the door if it is the last thing you do]]
+
+
+:: Head back around the corridor {"position":"2800,1700","size":"100,100"}
+You walk around the next corner, passing the door from before. You trudge down the next hallway, then you turn the next corner, then the next hallway, then the next corner...
+
+Wait a minute... You stop, an utter feeling of dread washing over you.
+You should have only needed to turn 3 times to be back at the T junction, but you've turned 4 times; if anything you should be back at the janitors cart, but you're not.
+
+You feel a weight growing on you, a feeling of nausea washing over, like car sickness. You feel displaced and you know it to your core.
+
+(if: $EncounteredEarly)[The previous encounter with the strange thing from before weighs even more heavy on your mind now, whatever this place is, it is wrong, it is dark and desecrated, you're even sure how much of this is real.
+
+[[Keep walking->Enter the maze]]
+
+
+:: Head down the corridor {"position":"2800,700","size":"100,100"}
+You decide it is what it is and that this is the only way forward is to find a way to that cart.
+
+Beginning your walk down the corridor and taking the left turn, the scenery only becomes more and more grim. Broken vents, lockers and closets all scatter the length of this corridor. You pass a few sets of doors that do not open, either blocked or locked. Thankfully this area seems to be one big circle and you find yourself about to turn the last corner when you hear a loud clang from behind you.
+
+[[Turn!]]
+
+
+:: Head left again {"position":"2400,2500","size":"100,100"}
+You follow the tried and true method of hugging the left wall to get to your destination.
+
+You head left, then left again in quick succession, this direction doesn't feel right... You're heading back on yourself, if you keep going this way, you may hit a dead end!
+
+(if:not$HasInjury)[[Head back and turn right]]
+(if:$HasInjury)[[Head back and turn right->Fail to turn back.]]
+
+[[Keep heading forward.]]
+
+
+
+:: Head left instead {"position":"3000,2500","size":"100,100"}
+Sticking to one singular direction would be a death sentence, so you turn left; if anything this should also aim you more towards the direction you want to go, away from the creature.
+
+You continue down this corridor and it spans ahead for a considerable distance. Eventually, almost to your dismay the corridor comes to an end. You quickly inspect the walls around you, to your left is a door. You try the handle, but it's locked, however you have the keys!
+
+Reaching into your pocket you pull the keys and try keys one, by one, by one.
+
+(if:not$HasInjury)[You hear it barely, the creature is soon to enter the same corridor as you, it has found you.]
+(if:$HasInjury)[Almost in response to your distress, you hear the creature shriek from down the corridor behind you, it is approaching at considerable speeds!]
+
+[[Unlock the door if it is the last thing you do]]
+
+
+:: Head onward {"position":"2400,1300","size":"100,100"}
+You continue fast the gate and turn a corner to the left and see ahead of you a large staircase heading up, specifically an escalator, both the up and down starcases.
+
+Unfortunately for your feet, they no longer move.
+
+[[Reach the top]]
+
+
+:: Head right again {"position":"3200,2500","size":"100,100"}
+A friend once told you that the right corridor is always the right way to go, admittedly you always preffered the 'hug the left wall' motif, but this is decidedly maybe not the time to trust that judgement.
+
+You turn to the right, technically heading back on yourself now, it doesnt feel right, but maybe it will pay off? 
+
+(if:not$HasInjury)[[Keep heading Right]]
+(if:$HasInjury)[[Keep heading right->Fail to turn back.]]
+
+[[Head back and turn left.]]
+
+
+:: Head right instead {"position":"2600,2500","size":"100,100"}
+Sticking to one singular direction would be a death sentence, so you turn right; if anything this should also aim you more towards the direction you want to go, away from the creature.
+
+You continue down this corridor and it spans ahead for a considerable distance. Eventually, almost to your dismay the corridor comes to an end. You quickly inspect the walls around you, to your right is a door. You try the handle, but it's locked, however you have the keys!
+
+Reaching into your pocket you pull the keys and try keys one, by one, by one.
+
+(if:not$HasInjury)[You hear it barely, the creature is soon to enter the same corridor as you, it has found you.]
+(if:$HasInjury)[Almost in response to your distress, you hear the creature shriek from down the corridor behind you, it is approaching at considerable speeds!]
+
+[[Unlock the door if it is the last thing you do]]
+
+
+:: Head towards the bathroom. {"position":"2200,700","size":"100,100"}
+You head towards the bathroom doors, giving them a push they are unlocked.
+
+You push open the mens door and take in the vision inside.
+The entire room is covered in filth and what appears like mold. It smells rancid.
+
+You walk in and give the room a quick look-over, it is empty, apart from the sink's basin, which is covered in red liquid, seemingly blood.
+You look inside and see an item inside, a knife, a pocket knife.
+(if:$HasInjury)[This couldve perhaps been very usefull against whatever that... creature was...]
+ 
+ [[Take it->Take the knife]]
+ 
+ [[Leave it->Leave the knife]]
+(set:$HasCheckedBathroom to true)
+
+
+:: Head towards the gate. {"position":"2400,700","size":"100,100"}
+You approach the large gate infront of you, and despite how coroded the world around you seems, you give the gate the strongest shove you can, but it does not budge.
+
+It has a small box off to the side with a key hole; you've seen these plenty of times before, turn the key one direction and the gate rises, turn it the otherway and it falls.
+
+(if:$HasKnife)[You unfold the pocket knife, pushing its blade into the small keyhole, hoping for it to turn, to not resist, but it unfortunately does not turn.]
+
+You don't have a lot of hope in finding such a niche key, but maybe luck is on your side and you should keep an eye out.
+
+You need to find Maria.
+
+(if: not$HasCheckedBathroom)[[Head towards the bathroom.]] 
+
+(if: $HasGateKey)[[Head towards the gate.->Gate with key]]
+
+(if: not$HasCheckedStaffRoom)[[Head towards the staff room.]]
+
+
+:: Head towards the staff room. {"position":"2600,700","size":"100,100"}
+You approach the staff room door and give it a light shove, to your surprise it swings open with relative ease. 
+
+The corridor ahead of you is uneasy, the walls are near black, piping bends across the sides, dripping with some unknown liquid that produces a foul stench.
+
+You begin to walk ahead, the path diverts at a T junction, to the right the corridor carries on for a while before going around a bend. To the left, the whole corridor seems to have partially collapsed, piping and concrete block the way, but through the debris, almost as if intentional, you can see a cart of some kind, the kind janitors or cleaners would push around. It would be otherwise useless, but perhaps it could have something of use, depending on its use case it might have a way to open the gate, forcefully or not.
+
+The only way around to it would be to go down the other corridor and hope that it loops around to the other side.
+
+[[Head down the corridor]]
+
+
+:: Ignore it {"position":"300,300","size":"100,100"}
+You cant ignore this.
+
+[[Answer it]] 
+
+[[Ignore it->Ignore it again]]
+
+
+:: Ignore it again {"position":"300,500","size":"100,100"}
+You CANNOT ignore your fate.
+
+[[Answer it]] 
+
+[[Ignore it->Ignore it further]]
+
+
+:: Ignore it further {"position":"100,700","size":"100,100"}
+[[Denial leads nowhere.->Beginning]]
+
+
+:: Inspect the cafe {"position":"2400,1700","size":"100,100"}
+That's when you realise what this is, this cafe... the brand of it atleast, its the one you were at when you got that call, wasn't that a dream? But then it sinks in further, this cafe isnt just the same brand, it is the same exact building, just integrated into the shopping mall...
+
+This is... Unsettling... How is it just here? Why?
+
+Then you hear another buzz, you look towards its location, on a table near the front of the building, it looks like a phone.
+
+[[Take a look]]
+
+
+:: Inspect the cart {"position":"2800,1300","size":"100,100"}
+You reach the cart and crouch down to search it for anything of interest.
+
+It's contents seem picked clean or long since rotted away into nothing of use, it seems to be some sort of cleaning cart like you guessed, bottles of bleach and cleaning soaps line the floor.
+
+There is also a plethora of pouches and pockets strewn across the cart, you search them one by one by one, until you hear it, a jingle; you reach down and pull... Yes!
+
+You pull out from the pocket a set of keys, rusted and worn, but they're here in front of you.
+
+You pocket them, you have everything you need.
+
+It's time to get out of here.
+
+[[Head back]]
+
+(set:$HasGateKey to true)
+
+
+:: Keep heading Right {"position":"3200,2700","size":"100,100"}
+You decide there isnt time, you need to go right, no matter what.
+
+You charge down the corridor and it goes on and on and on, before taking a sharp turn left and continuing on further.
+
+You reach what you were dreading. A dead end.
+But it is not over yet, there is a door! You try the handle- locked, but you have keys, and one by one you begin trying them.
+
+(if:$HasInjury)[You hear it behind you, it is cornering you, and will soon turn the corner behind you, you don't have long.
+
+[[Unlock the door if it is the last thing you do]] 
+
+
+:: Keep heading forward. {"position":"2400,2700","size":"100,100"}
+You decide there isnt time, you need to go left, no matter what.
+
+You charge down the corridor and it goes on and on and on, before taking a sharp turn right and continuing on further.
+
+You reach what you were dreading. A dead end.
+But it is not over yet, there is a door! You try the handle- locked, but you have keys, and one by one you begin trying them.
+
+(if:$HasInjury)[You hear it behind you, it is cornering you, and will soon turn the corner behind you, you don't have long.
+
+[[Unlock the door if it is the last thing you do]] 
+
+
+:: Keep walking {"position":"1700,300","size":"100,100"}
+As you reach it, it appears to be a table of some sort, it looks medical, covered in some form of dust. In the centre of the table is a frame of some kind, facing away from you. It looks like it is made of stone, perhaps slate?
+
+[[Pick up the frame]]
+
+
+:: Leave the bathroom {"position":"1900,1000","size":"100,100"}
+You leave the bathroom, heading back out into the main atrium, ahead of you is, yet again, the gate and the staff room.
+
+(if:not$HasGateKey and not$HasCheckedGate)[[Head towards the gate.]]
+(if:$HasGateKey)[[Head towards the gate.->Gate with key]]
+
+(if:not$HasCheckedStaffRoom[[Head towards the staff room.]]
+
+
+:: Leave the building {"position":"2400,2300","size":"100,100"}
+You pocket your phone and begin to walk towards the open entrance, leading you out into the street. 
+As you approach the open road, you look around, it is as equally barren as the inside of the building. Street lights shine aged light across long abandoned cars. There is electricity, but it is abnormally quiet and barren.
+
+You have to make it home, at home is your family, your mother, father, brother...
+Maria...
+
+You have to make it home to Maria.
+----------------------------
+You have reacehd the end of Arc 1.
+
+Thank you for playing!
+
+
+:: Leave the knife {"position":"2000,800","size":"100,100"}
+You close your eyes a moment.
+
+A promise must be kept, no matter if you tell yourself it could be used as a tool or a weapon.
+
+Perhaps this is for the best.
+
+[[Leave the bathroom]]
+
+
+:: Look around. {"position":"2400,500","size":"100,100"}
+You glance around yourself and see blinding white light as the room around you hums; you appear to be on the cold floor of some kind of large building. Everything is almost clinical-white, but covered in dirt and grime, there also appears to be old advertisements on the walls? The old paper kind, and black shattered screens that indicate more modern tech.
+
+Wherever you are, it's somewhere public, like a cinema or a shopping centre, somewhere designed to hold lots of people, why would you be here?
+
+You look around some more, you woke up against a near plain wall, but the others feature bathrooms, some kind of staff room, and a large locked gate, the kind that unwinds from the ceiling to block off areas people arent meant to be in.
+
+[[Head towards the gate.]]
+
+[[Head towards the bathroom.]]
+
+[[Head towards the staff room.]]
+
+
+:: Ominous silence {"position":"700,100","size":"100,100"}
+There hasnt been a reply yet, maybe it was a butt dial or a scam call that hasnt gone through properly? Then it happens, a voice comes through, a whisper, and it says "The beloved star falls over the bitter ocean..."
+
+What? You cant help but question the situation, this whole thing seems odd and you hang up, you have no time for weird scam calls, not today. It's time to head home...
+
+[[Begin your travel]]
+
+
+:: Open it {"position":"2400,2100","size":"100,100"}
+You tap the message open and the phone unlocks.
+The message from your mother is short.
+
+"I'm worried about you, come home soon."
+
+You write back your own message:
+"Mam, something bad has happened... I don't know where I am or what is going on, I'm hurt and no one is around."
+
+The message returns with an error... No signal.
+You write one last message.
+"I love you x"
+
+You put down the phone, looking around, perhaps outside of this place, help can be found, perhaps you'll find signal, find something, anything.
+
+[[Leave the building]]
+
+
+:: Pick up the frame {"position":"1900,300","size":"100,100"}
+You pick up the frame, and spin it around to face you, using the lighter to light up whatever is on it. It is also covered in the same dust as the table.
+
+[[Wipe it away]]
+
+
+:: Pick up the phone {"position":"1100,100","size":"100,100"}
+You bring the phone up to your ear, and you smile as you say "Hey mam!" into the microphone- but you are immediately hit with a wave of dread and pain as this deafening otherworldy screech is pounded into your ears.
+It is LOUD, far to loud to endure, and you drop your phone, but find the noise to persist; you clutch your head, your ears, anything to ease this feeling, but you can't, and it overwhelms you.
+
+You collapse to your knees in agony, clutching your eyes closed, and then all at once it stops...
+
+[[Open your eyes->Void beginning]]
+
+
+:: Press on through the darkness {"position":"1500,300","size":"100,100"}
+You begin walking, you feel like a ghost in this void, it is cold with no clear direction.
+
+You walk, and walk, and walk...
+
+Your mind begins to play tricks on you, or atleast it feels that way, you swear you hear voices, visions, things just outside of your vision.
+
+Then you see it. Another glimmer, a slight reflection from the light of your lighter and you approach it cautiously.
+
+[[Keep walking]]
+
+
+:: Push ahead towards the door {"position":"2700,3100","size":"100,100"}
+You push yourself down this corridor, the staff door seeming likes its only metres away, but your balance wavers, something is wrong. Your stomach turns as the corridor around you twist and turns like a corkscrew, causing you to momentarily fall to your knees.
+
+As you manage to regain some of your balance, the world around you distorts, warping into something different, something cold, something... familiar.
+The corridors are lines with shelves filled with books, lockers, multiple doors leading off to different rooms.
+
+Ahead of you it still remains however, glowing like a beacon, the exit, the staff door.
+
+[[Get through the door]] 
+
+
+:: Reach for it {"position":"1300,300","size":"100,100"}
+You reach your hands out almost desperately for this glimmer in the dark and you feel it, it's small, but you hold it and bring it close.
+
+It feels.... like a lighter! Sure enough you adjust your grip and feel the lever to ignite it and give it a couple flicks, causing it to come to life with a small and weak flame, but enough to see around you in this darkness.
+
+You rise to your feet, looking around you there is absolutely nothing, no signs of life, no noise, nothing.
+
+The only way ahead is forward.
+
+[[Press on through the darkness]]
+
+
+:: Reach the top {"position":"2400,1500","size":"100,100"}
+You start climbing, it isnt the tallest staircase, and it's not long before you reach the top either. As you step off the last step, ahead of you opens up to an incredibly large area, more escalators going up, a coffee shop to your left, a central hub area that splits off, and two large entrances. This is some sort of hybrid mall, between food and clothing stores.
+
+You begin walking towards one of the exits, allowing your feet to carry you. Then you hear a small buzz to your left, you turn, it sounds like it came from this small cafe... but hey, isnt this....
+
+[[Inspect the cafe]]
+
+
+:: Run down the corridors. {"position":"2800,2100","size":"100,100"}
+You bolt down the unnaturally dark corridor, going anywhere to escape from this creature; you hear the thumping of its inhuman footsteps along with its gutteral screeching that sounds barely like a mix between a human and some sort of animal, but it only encourages your ability to pick up the pace. (if:$HasInjury)[Your wounds burn as droplets of blood splash across the rotten floor of this place, you need to be quick, if this thing is smart in the slightest, it's gonna track you.]
+
+You reach your first crossroads. You have the option to head left or right.
+
+[[Head Left]]
+[[Head Right]]
+
+
+:: Sip your coffee {"position":"300,100","size":"100,100"}
+Suddenly, out of nowhere your phone rings- you're not expecting any calls, but that's not an issue; it would be best to take it outside and answer it.
+
+[[Answer it]]
+
+[[Ignore it]]
+
+
+:: Stab the creature {"position":"3200,1300","size":"100,100"}
+You punch at the creature!!! Hitting its arms with all your might, but it's no use, it begins to lift you off the ground, its long rotten nails digging into your sides...
+
+You life your arm up, the blade of the knife pointed towards the arms around you, and you bring it down right into the rotten arms of whatever this thing is.
+
+It screeches in response, letting you go before its claws can break through your skin. You go in for more strikes! Trying to hit anywhere you can. In response the creature shulks away, where you see it face to face; it is humanoid. but its features are twisted, its neck elongated, its bones broken and twisted, its skin unnaturally dark. You barely get to see much more before it retreats into the dark of the room it came from, the door slamming shut as it does.
+
+[[Collect yourself]]
+
+(set:$EncounteredEarly to true)
+
+
+:: Take a look {"position":"2400,1900","size":"100,100"}
+You approach the phone, it looks like yours!
+ 
+"Why would it be here?-" You cut yourself off. You're done questioning this strange situation for the time being, nothing makes sense and its driving you insane trying to force it all to make sense.
+You reach down and grab your phone, if it buzzed it must have battery left. You press the power button hoping for it to turn on and it does.
+
+It's almost fully charged 87%, the same it had when you were in the cafe. The time is... 01:17am... Its been hours.
+
+There is an unopened text from... your mother.
+
+[[Open it]]
+
+
+:: Take a moment {"position":"2100,3100","size":"100,100"}
+You rest until all of your senses come back, your hearing expands, tinitus subsiding, your breathing calms and the pain across your body begins to numb.
+
+This... is all too crazy, where are we, what was that thing, why am I here?
+All these questions roam your mind. You are tired and in pain, but it isnt over yet. You rise to your feet, the gate key in-hand. You can open the gate now.
+
+[[Head towards the gate->Gate with key]]
+
+(if:not$HasCheckedBathroom)[[Head towards the bathroom.]]
+
+
+:: Take the knife {"position":"1900,700","size":"100,100"}
+You reach down into the basin, gripping the knife in your hand.
+The blood has long since dried.
+
+You look up, telling yourself it can be used as a tool if needed, or perhaps a weapon in this unfamiliar landscape.
+There is blood on the mirror too you realise, words wriiten in it.
+
+"Liar"
+
+[[Leave the bathroom]]
+(set:$HasKnife to true)
+
+
+:: Turn the key left {"position":"2325,1100","size":"100,100"}
+Success!!
+
+After a loud wirring noise as energy flows into this machine, it begins to rise!! It is loud, and you secretly hope that nothing other than you can hear it right now.
+
+You don't wait for the whole gate to rise, once its about 4 feet off the ground, you pull the keys out from the gate and crouch underneath the metal frame, slipping under and standing on the other side.
+
+[[Head onward]]
+
+
+:: Turn the key right {"position":"2475,1100","size":"100,100"}
+Nothing...
+
+[[Turn the key left]] 
+
+
+:: Turn! {"position":"2800,900","size":"100,100"}
+You turn as quick as you can on your heel, you partially convince yourself that its not going to be something harmful, just some ground you disturbed or an animal at worst.
+(if:$HasKnife)[Nevertheless, as if muscle memory, you reach to the knife in your pocket and draw it ahead of yourself.]
+
+You come to a stop, facing back down the corridor you just came from, ahead of you lays a now open door, the inside being filled with darkness. You train your eyes on it for what feels like a while, just hoping nothing comes out or shows itself.
+
+[[Approach the door]]
+
+[[Back away down the corridor]]
+
+(set:$EncounteredEarly to false)
+
+
+:: Unlock the door if it is the last thing you do {"position":"2800,2900","size":"100,100"}
+You jam the keys into the lock one by one, ignoring the obvious big or small keys that dont look like they're made for doors.
+
+Eventually one slides in smoothly! You turn it and it goes! You push your weight against the door- against the handle, and swing it open wildly.
+
+(if:not$HasInjury)[You slam the door shut, jamming the same key back into the door from the other side and twisting it to lock it. As you just barely finishing turning the key, the door warps towards you as the creature on the other side slams against it. You take a breath, but you don't have a lot of time, you check your surroundings, to your left is a dead end, but to the right a corridor, and at the end you see it! The staff door!
+
+You run! Carrying yourself towards it as fast as you can, you hear from behind you that the door bursts off its hinges as the creature breaks through.]
+
+(if:$HasInjury)[You attempt to slam the door shut, but the creature beats you too it, slamming against the door, aiming to push it open, but you hold your ground, keeping the door in place as much as you can. Its dark elongated claws grip around the sides of the door and doorframe. You don't have a lot of time, you check your surroundings, to your left is a dead end, but to the right a corridor, and at the end you see it! The staff door!
+You make a decision, you can't beat it in a competition of pure might, but maybe you can beat it to the exit.
+
+You run! Carrying yourself towards it as fast as you can, near-immediately as you let go the creature charges through the open door and begins chase after you. You ignore the pain in your body for these vital moments pushing yourself forward and forward towards the staff foor ahead of you.]
+
+[[Push ahead towards the door]]
+
+
+:: Void beginning {"position":"1100,300","size":"100,100"}
+You can't help but clench your eyes shut for just a little longer.
+
+But eventually you open them, but you almost don't realise that you have, so you wait a few seconds for your eyes to seemingly adjust, but they never do; you can't help but worry if there's something wrong with your eyes!
+Then you realise it, you bring your hands up to your face and can just barely see them, you're not blind, it is just incredibly dark, as if a void surrounds you.
+
+A glint ahead catches your eye.
+
+[[Reach for it]]
+
+
+:: Wake Up {"position":"2100,500","size":"100,100"}
+"Maria!!!"...
+
+You jolt upright, grabbing at yourself as you do!
+
+You are cold... Your voice echoes.
+There is light.
+
+You look around you, you're no longer in that void... It must've been some kind of dream, all of it, but how much you do not know.
+Then more questions start, where actually are you? Where is the street? The cafe?
+
+[[Look around.]]
+
+(set:$HasGateKey to false)
+(set:$HasKnife to false)
+(set:$HasInjury to false)
+
+(set:$HasCheckedBathroom to false)
+(set:$HasCheckedGate to false)
+(set:$HasCheckedStaffRoom to false)
+
+
+:: Wipe it away {"position":"2100,300","size":"100,100"}
+You use the back of your hand to wipe away the majority of this dust, but the image of the picture this frame holds is unclear.
+You don't have long at all to inspect it further however, you realise too late that whatever this dust is, it is flammable and the whole table and frame light up in a blaze.
+
+You throw the frame down and it shatters into pieces, your clothing has also caught fire and you attempt to pat yourself down, but its a struggle. As you do, you also turn to run away from these flames, to get away from the danger, but you are stopped. A man stands ahead of you, a hood covering his face as he nearly blends in with the shadows around the both of you. Before you can react he gives you a shove and you fall backwards into the flames, grabbing at yourself as they take you alive.
+
+You let out a scream, and as you do...
+
+[[Wake Up]]
